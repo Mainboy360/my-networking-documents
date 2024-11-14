@@ -1,0 +1,69 @@
+:root {
+    --ccna1-background-color: #e11d48;
+    --ccna2-background-color: #3C552D;
+    --ccna3-background-color: #347928;
+}
+
+
+*  {
+    margin: 0px;
+    padding: 0px;
+}
+
+.networking-documents {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    padding: 40px;
+ 
+    flex: 1;
+ 
+}
+
+/*    link styeling section*/
+a:link {
+    text-decoration: none;
+    color: white;
+}
+
+a:visited {
+    text-decoration: none;
+    color: red;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+/*    link style ends */
+
+
+.ccna1, .ccna2, .ccna3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    text-align: left;
+    text-decoration: none;
+}
+ .ccna1 p, .ccna2 p, .ccna3 p {
+    text-transform: uppercase;
+ }
+
+ .ccna1 {
+    background-color: var(--ccna1-background-color);
+    color: #fff;
+ }
+
+ .ccna2 {
+    background-color: var(--ccna2-background-color);
+    color: #fff;
+ }
+
+ .ccna3 {
+    background-color: var(--ccna3-background-color);
+    color: #fff;
+ }
